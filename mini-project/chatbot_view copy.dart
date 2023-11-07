@@ -16,7 +16,7 @@ class _ChatBotPageState extends State<ChatBotPage> {
   String _response = "";
 
   Future<void> _submitForm() async {
-    String key = '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';
+    String key = '';
     if (_formKey.currentState!.validate()) {
       final apiKey = key;
       const apiUrl = 'https://api.openai.com/v1/completions';
